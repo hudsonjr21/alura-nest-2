@@ -3,6 +3,7 @@ import { UsuarioController } from "./usuario.controller";
 import { UsuarioRepository } from "./usuario.repository";
 import { ProdutoController } from "src/produto/produto.controller";
 import { ProdutoRepository } from "src/produto/produto.repository";
+import { EmailUnicoValitador } from "./validacao/email-unico.validator";
 
 @Module({
     controllers: 
@@ -13,7 +14,8 @@ import { ProdutoRepository } from "src/produto/produto.repository";
     providers: 
     [
         UsuarioRepository,
-        ProdutoRepository
+        ProdutoRepository,
+        EmailUnicoValitador
     ]
 })
 

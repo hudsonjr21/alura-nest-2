@@ -4,8 +4,13 @@
         "Caracteristica",
         "caracteristicas",
         "descricao",
+        "opcoes",
+        "possivel",
+        "Unico",
         "usuario",
         "Usuario",
-        "usuarios"
+        "usuarios",
+        "Validacao",
+        "Valitador"
     ]
 }
